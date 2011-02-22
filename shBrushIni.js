@@ -44,7 +44,7 @@ function Brush() {
         css : 'comments'
     },
     {
-        regex : /^(\[.*\])/g,
+        regex : /\[[a-z0-9:\-\s]+\]/gi,
         css : 'color3'
     },
     {
